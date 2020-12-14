@@ -153,9 +153,18 @@ nav {
     display: block;
 }
 }
+/* Tablet Sized devices (425px and above) */
+@media only screen and (min-width: 425px) {
+    nav {
+        margin-left: 1em;
+    }
+    }
 /* Computer Sized devices (1024px and above) */
 @media only screen and (min-width: 1024px)
 {
+    nav {
+        margin-left: 2em;
+    }
     .hero-container {
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -164,12 +173,17 @@ nav {
 
 @media only screen and (min-width: 1440px)
 {
+    nav {
+        margin-left: 3.3em;
+    }
 .list-item {
-    font-size: 1.5em;;
+    font-size: 1em;;
 }
+
 .photo-icon {
     padding:1em 0em;
-    margin-right: 1.2em;
-    width:2.5em;
+    margin-right: 1.5em;
+    width:1.9em;
     height:auto;
+}
 }
