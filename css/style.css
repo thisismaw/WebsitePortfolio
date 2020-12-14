@@ -5,29 +5,130 @@
     max-width: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
 }
 body {
-    background-color: black;
-    color: white;
+    background-color: #212529;
+    color: #f8f9fa;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #f8f9fa;
 }
 header{
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
-    padding: 10px;
 }
 nav {
     display: flex;
 }
 .list-item {
  display: inline-block;   
+ font-family: 'Montserrat', sans-serif;
 }
+
 .link-class {
+    padding: .7em .51em;
     display: block;
+}
+.icon-container {
+    text-align: center;
+}
+.photo-icon
+{
+padding: .6em .5em;
+}
+.intro-sect {
+    position: relative;
+    padding-top: 5em;
+}
+.hero-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.hero-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:3em;
+}
+.hero-sub {
+    padding-top: 1em;
+    line-height:150%;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+.portfolios-container {
+    position: relative;
+    margin:4em auto 0;
+    max-width: 90%;
+    gap: 4em;
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+}
+.tile-content {
+    width:100%;
+    border-radius: 10px;
+    display:block;
+    padding: 3em 3em 4em;
+
+}
+
+.tile-bg {
+    background: linear-gradient(338.83deg,#343a40 -3.41%,rgba(255,196,255,0) 52.31%),#495057;
+}
+
+.device-desc {
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    opacity:.8;
+    font-size: 1em;
+}
+.proj-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:2.5em;
+    letter-spacing: -1px;
+    margin-bottom: 1em;
+}
+.img-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.photo-icon {
+    position:relative;
+    display: inline-block;
+}
+.picture-size {
+    max-width: 90%;
+}
+footer {
+    position: relative;
+}
+.content-footer {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1.3em 1em;
+}
+.footer-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 120%;
+    
+}
+.footer-sub {
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-link {
+    text-decoration: underline;
+    text-decoration-color: #e9ecef;
+    text-decoration-thickness: 2px;
 }
