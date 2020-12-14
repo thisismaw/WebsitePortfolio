@@ -113,7 +113,7 @@ footer {
 .content-footer {
     max-width: 90%;
     margin: 0 auto;
-    padding: 1.3em 1em;
+    padding: 4em 1em;
 }
 .footer-title {
     font-family: 'Montserrat', sans-serif;
@@ -131,4 +131,45 @@ footer {
     text-decoration: underline;
     text-decoration-color: #e9ecef;
     text-decoration-thickness: 2px;
+}
+/* Tablet Sized devices (768px and above) */
+@media only screen and (min-width: 768px) {
+header {
+    padding: 1em;
+}
+nav {
+    margin-left: 3em;
+}
+.list-nav {
+    text-align: center;
+}
+.link-class{
+    padding: 1em 1.2em;
+}
+.photo-icon {
+    padding:1em 1em;
+}
+.hero-block {
+    display: block;
+}
+}
+/* Computer Sized devices (1024px and above) */
+@media only screen and (min-width: 1024px)
+{
+    .hero-container {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1440px)
+{
+.list-item {
+    font-size: 1.5em;;
+}
+.photo-icon {
+    padding:1em 0em;
+    margin-right: 1.2em;
+    width:2.5em;
+    height:auto;
 }
