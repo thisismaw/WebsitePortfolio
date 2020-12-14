@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+body {
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+nav {
+    display: flex;
+}
+.list-item {
+ display: inline-block;   
+}
+.link-class {
+    display: block;
+}
